@@ -24,7 +24,7 @@ export default function Dashboard() {
                     <Col md={4}>
                         <Link to="/stock-dispatch" className="text-decoration-none">
                             <div className="d-grid gap-2">
-                                <Button variant="outline-warning" size="lg" className="py-4">
+                                <Button variant="outline-warning" style={{ backgroundColor: '#FF5733', color: 'white', borderColor: '#FF5733' }} size="lg" className="py-4">
                                     <i className="bi bi-box-arrow-up mb-2" style={{ fontSize: '2rem' }}></i><br />
                                     จ่ายอุปกรณ์จำหน่ายออก
                                 </Button>
