@@ -15,37 +15,6 @@ export default function Dashboard() {
         <>
             <NavigationBar />
             <Container>
-                <h2 className="mb-4">แผงควบคุมหลัก</h2>
-
-                <Row className="mb-4">
-                    <Col md={4}>
-                        <Card className="text-center shadow-sm mb-3">
-                            <Card.Body>
-                                <Card.Title>สินค้าคงเหลือทั้งหมด</Card.Title>
-                                <h1 className="display-4 text-primary">{stats.totalStock}</h1>
-                                <Card.Text>รายการ</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col md={4}>
-                        <Card className="text-center shadow-sm mb-3">
-                            <Card.Body>
-                                <Card.Title>รับเข้าวันนี้</Card.Title>
-                                <h1 className="display-4 text-success">{stats.receivedToday}</h1>
-                                <Card.Text>รายการ</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                    <Col md={4}>
-                        <Card className="text-center shadow-sm mb-3">
-                            <Card.Body>
-                                <Card.Title>จำหน่ายแล้วทั้งหมด</Card.Title>
-                                <h1 className="display-4 text-warning">{stats.dispatchedTotal}</h1>
-                                <Card.Text>รายการ</Card.Text>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
 
                 <h3 className="mb-3">เมนูด่วน</h3>
                 <Row>
