@@ -16,7 +16,7 @@ export default function Dashboard() {
                             <div className="d-grid gap-2">
                                 <Button variant="outline-primary" size="lg" className="py-4">
                                     <i className="bi bi-box-arrow-in-down mb-2" style={{ fontSize: '2rem' }}></i><br />
-                                    รับสินค้าเข้า
+                                    รับอุปกรณ์รอจำหน่ายเข้า
                                 </Button>
                             </div>
                         </Link>
@@ -26,7 +26,7 @@ export default function Dashboard() {
                             <div className="d-grid gap-2">
                                 <Button variant="outline-warning" size="lg" className="py-4">
                                     <i className="bi bi-box-arrow-up mb-2" style={{ fontSize: '2rem' }}></i><br />
-                                    จำหน่ายสินค้า
+                                    จ่ายอุปกรณ์จำหน่ายออก
                                 </Button>
                             </div>
                         </Link>
