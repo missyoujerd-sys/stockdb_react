@@ -4,12 +4,6 @@ import { Link } from 'react-router-dom';
 import NavigationBar from '../Layout/Navbar';
 
 export default function Dashboard() {
-    // Placeholder state for stats - in a real app would fetch from Firebase
-    const [stats] = useState({
-        totalStock: 0,
-        receivedToday: 0,
-        dispatchedTotal: 0
-    });
 
     return (
         <>
