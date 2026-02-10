@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Card, Row, Col, Container, Button } from 'react-bootstrap';
+import { Row, Col, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NavigationBar from '../Layout/Navbar';
 
