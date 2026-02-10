@@ -25,7 +25,7 @@ export default function Dashboard() {
                         <Link to="/stock-dispatch" className="text-decoration-none">
                             <div className="d-grid gap-2">
                                 <Button variant="outline-warning" size="lg" className="py-4">
-                                    <img src="https://www.pngegg.com/th/png-bihth" alt="Icon" style={{ width: '50px', marginBottom: '10px' }} /><br />
+                                    <img src="pngegg.png" alt="Icon" style={{ width: '50px', marginBottom: '10px' }} /><br />
                                     จ่ายอุปกรณ์จำหน่ายออก
                                 </Button>
                             </div>
