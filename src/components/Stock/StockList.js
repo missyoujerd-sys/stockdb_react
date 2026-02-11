@@ -97,7 +97,7 @@ export default function StockList() {
                                     <thead>
                                         <tr>
                                             <th>วันที่</th>
-                                            <th>ชื่อสินค้า</th>
+                                            <th>ชื่อ</th>
                                             <th>จาก</th>
                                             <th>ถึง</th>
                                             <th>จำนวน</th>

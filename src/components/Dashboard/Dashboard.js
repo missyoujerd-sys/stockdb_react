@@ -1,6 +1,7 @@
 import { Row, Col, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NavigationBar from '../Layout/Navbar';
+import pngegg from '../../picture/pngegg.png';
 
 export default function Dashboard() {
 
@@ -25,8 +26,8 @@ export default function Dashboard() {
                         <Link to="/stock-dispatch" className="text-decoration-none">
                             <div className="d-grid gap-2">
                                 <Button variant="outline-warning" size="lg" className="py-4">
-                                    <img src="pngegg.png" alt="Icon" style={{ width: '50px', marginBottom: '10px' }} /><br />
-                                    จ่ายอุปกรณ์จำหน่ายออก
+                                    <img src={pngegg} alt="Icon" style={{ width: '50px', marginBottom: '10px' }} /><br />
+                                    รอจำหน่ายออก
                                 </Button>
                             </div>
                         </Link>
