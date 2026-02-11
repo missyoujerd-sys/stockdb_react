@@ -29,7 +29,7 @@ export default function NavigationBar() {
                     <Nav className="me-auto">
                         <Nav.Link as={Link} to="/">หน้าหลัก</Nav.Link>
                         <Nav.Link as={Link} to="/stock-receiving">รับเข้า Stock</Nav.Link>
-                        <Nav.Link as={Link} to="/stock-list">รายการสินค้า</Nav.Link>
+                        <Nav.Link as={Link} to="/stock-list">รายการครุภัณฑ์</Nav.Link>
                         <Nav.Link as={Link} to="/stock-dispatch">จำหน่ายออก</Nav.Link>
                     </Nav>
                     <Nav>

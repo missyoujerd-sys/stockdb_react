@@ -79,21 +79,21 @@ export default function StockReceiving() {
                                     <Row className="mb-3">
                                         <Col md={6}>
                                             <Form.Group id="source">
-                                                <Form.Label>จากที่ไหน (Source)</Form.Label>
-                                                <Form.Control type="text" ref={sourceRef} required placeholder="ระบุต้นทาง" />
+                                                <Form.Label>จาก (Source)</Form.Label>
+                                                <Form.Control type="text" ref={sourceRef} required placeholder="ระบุต้นทางที่มาของครุภัณฑ์" />
                                             </Form.Group>
                                         </Col>
                                         <Col md={6}>
                                             <Form.Group id="destination">
-                                                <Form.Label>ถึงที่ไหน (Destination)</Form.Label>
-                                                <Form.Control type="text" ref={destinationRef} required placeholder="ระบุปลายทาง" />
+                                                <Form.Label>ถึง (Destination)</Form.Label>
+                                                <Form.Control type="text" ref={destinationRef} required placeholder="ระบุปลายทางที่เก็บครุภัณฑ์รอจำหน่าย" />
                                             </Form.Group>
                                         </Col>
                                     </Row>
 
                                     <Form.Group id="itemName" className="mb-3">
-                                        <Form.Label>ชื่อสินค้า (Item Name)</Form.Label>
-                                        <Form.Control type="text" ref={itemNameRef} required placeholder="ระบุชื่อสินค้า" />
+                                        <Form.Label>ชื่อ/รุ่น/เลขครุภัณฑ์ (Item Name)</Form.Label>
+                                        <Form.Control type="text" ref={itemNameRef} required placeholder="ระบุชื่อ/รุ่น/เลขครุภัณฑ์" />
                                     </Form.Group>
 
                                     <Form.Group id="quantity" className="mb-4">

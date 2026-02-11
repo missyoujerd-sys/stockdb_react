@@ -2,6 +2,8 @@ import { Row, Col, Container, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import NavigationBar from '../Layout/Navbar';
 import pngegg from '../../picture/pngegg.png';
+import original from '../../picture/original.png';
+import medical from '../../picture/medical.jpg';
 
 export default function Dashboard() {
 
@@ -16,7 +18,7 @@ export default function Dashboard() {
                         <Link to="/stock-receiving" className="text-decoration-none">
                             <div className="d-grid gap-2">
                                 <Button variant="outline-primary" size="lg" className="py-4">
-                                    <i className="bi bi-box-arrow-in-down mb-2" style={{ fontSize: '2rem' }}></i><br />
+                                    <img src={original} alt="Icon" style={{ width: '50px', marginBottom: '10px' }} /><br />
                                     รับอุปกรณ์รอจำหน่ายเข้า
                                 </Button>
                             </div>
@@ -36,7 +38,7 @@ export default function Dashboard() {
                         <Link to="/stock-list" className="text-decoration-none">
                             <div className="d-grid gap-2">
                                 <Button variant="outline-info" size="lg" className="py-4">
-                                    <i className="bi bi-list-check mb-2" style={{ fontSize: '2rem' }}></i><br />
+                                    <img src={medical} alt="Icon" style={{ width: '50px', marginBottom: '10px' }} /><br />
                                     ดูรายการทั้งหมด
                                 </Button>
                             </div>

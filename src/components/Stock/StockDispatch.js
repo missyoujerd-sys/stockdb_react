@@ -181,7 +181,7 @@ export default function StockDispatch() {
                                         <tr>
                                             <th style={{ width: '50px' }}>เลือก</th>
                                             <th>วันที่มาถึง</th>
-                                            <th>ชื่อสินค้า</th>
+                                            <th>ชื่อ/รุ่น/เลขครุภัณฑ</th>
                                             <th>จำนวน</th>
                                             <th>จาก</th>
                                             <th>ถึง</th>
